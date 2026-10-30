@@ -1,0 +1,32 @@
+{
+  "name": "lastro-sveltekit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LASTRO — Plataforma B2B de tesouraria e conciliação financeira (SvelteKit estático)",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "lint": "eslint --ignore-path .gitignore .",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-static": "^3.0.8",
+    "@sveltejs/kit": "^2.15.0",
+    "@sveltejs/vite-plugin-svelte": "^5.0.0",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.25.0",
+    "eslint-plugin-svelte": "^3.6.0",
+    "postcss": "^8.5.4",
+    "postcss-load-config": "^6.0.1",
+    "prettier": "^3.5.3",
+    "prettier-plugin-svelte": "^3.3.3",
+    "svelte": "^5.22.0",
+    "svelte-check": "^4.1.4",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.8.3",
+    "vite": "^6.2.5"
+  },
+  "type": "module"
+}
